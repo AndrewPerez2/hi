@@ -4,7 +4,7 @@
 //used for our MongoDB database connection
 //https://mongoosejs.com/docs/guide.html
 const mongoose = require("mongoose");
-mongoose.set('strictQuery', true);
+mongoose.set('strictQuery', false);
 
 //used for our database connections
 const url = "mongodb://localhost:27017"; //part of the database connection string
